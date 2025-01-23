@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Thamilarasan-gp/Expense-tracker-frontend.git/static/css/main.1045d062.css",
+    "main.js": "/Thamilarasan-gp/Expense-tracker-frontend.git/static/js/main.c8f07288.js",
+    "static/js/453.ed3810f9.chunk.js": "/Thamilarasan-gp/Expense-tracker-frontend.git/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/Thamilarasan-gp/Expense-tracker-frontend.git/index.html",
+    "main.1045d062.css.map": "/Thamilarasan-gp/Expense-tracker-frontend.git/static/css/main.1045d062.css.map",
+    "main.c8f07288.js.map": "/Thamilarasan-gp/Expense-tracker-frontend.git/static/js/main.c8f07288.js.map",
+    "453.ed3810f9.chunk.js.map": "/Thamilarasan-gp/Expense-tracker-frontend.git/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1045d062.css",
+    "static/js/main.c8f07288.js"
+  ]
+}
