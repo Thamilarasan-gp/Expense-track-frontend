@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Thamilarasan-gp/Expense-tracker-frontend.git/static/css/main.1045d062.css",
-    "main.js": "/Thamilarasan-gp/Expense-tracker-frontend.git/static/js/main.c8f07288.js",
-    "static/js/453.ed3810f9.chunk.js": "/Thamilarasan-gp/Expense-tracker-frontend.git/static/js/453.ed3810f9.chunk.js",
-    "index.html": "/Thamilarasan-gp/Expense-tracker-frontend.git/index.html",
-    "main.1045d062.css.map": "/Thamilarasan-gp/Expense-tracker-frontend.git/static/css/main.1045d062.css.map",
-    "main.c8f07288.js.map": "/Thamilarasan-gp/Expense-tracker-frontend.git/static/js/main.c8f07288.js.map",
-    "453.ed3810f9.chunk.js.map": "/Thamilarasan-gp/Expense-tracker-frontend.git/static/js/453.ed3810f9.chunk.js.map"
+    "main.css": "/Expense-track-frontend/static/css/main.1045d062.css",
+    "main.js": "/Expense-track-frontend/static/js/main.77e8b098.js",
+    "static/js/453.ed3810f9.chunk.js": "/Expense-track-frontend/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/Expense-track-frontend/index.html",
+    "main.1045d062.css.map": "/Expense-track-frontend/static/css/main.1045d062.css.map",
+    "main.77e8b098.js.map": "/Expense-track-frontend/static/js/main.77e8b098.js.map",
+    "453.ed3810f9.chunk.js.map": "/Expense-track-frontend/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1045d062.css",
-    "static/js/main.c8f07288.js"
+    "static/js/main.77e8b098.js"
   ]
 }
