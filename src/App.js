@@ -1,23 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import React, { useState } from 'react';
+import Form from './Form/Form';
+import History from './History/History';
+import Expense from './Header/Expense';
 
 function App() {
+  const [transactions, setTransactions] = useState([]);
+
+  const onAddTransaction = (transaction) => {
+    setTransactions((prevTransactions) => [...prevTransactions, transaction]);
+  };
+
+  const onDeleteTransaction = (id) => {
+    setTransactions((prevTransactions) => 
+      prevTransactions.filter((transaction) => transaction.id !== id)
+    );
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Expense Tracker</h1>
+      <Expense expenses={transactions} />
+      <History expenses={transactions} onDeleteTransaction={onDeleteTransaction} />
+      <Form onAdd={onAddTransaction} />
     </div>
   );
 }

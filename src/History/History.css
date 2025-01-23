@@ -1,0 +1,63 @@
+/* History.css */
+
+.history {
+    margin: 20px auto;
+    padding: 15px;
+    width: 350px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .history h3 {
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+  
+  .history ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .history li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+  }
+  
+  .history li:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .history strong {
+    color: #333;
+    font-size: 16px;
+  }
+  
+  .history .delete {
+    background-color: #e63946;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .history .delete:hover {
+    background-color: #d62839;
+  }
+  
