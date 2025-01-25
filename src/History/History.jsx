@@ -8,7 +8,9 @@ function History({ expenses, onDeleteTransaction }) {
         {expenses.map((expense) => (
           <li key={expense.id}>
             <strong>{expense.title}</strong>: ₹{expense.amount}
-            <button className="delete" onClick={() => onDeleteTransaction(expense.id)}>x</button>
+          
+            <button className="delete" onClick={() => onDeleteTransaction(expense._id)}> x</button>
+
           </li>
         ))}
       </ul>

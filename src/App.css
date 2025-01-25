@@ -1,15 +1,30 @@
-
-
 * {
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
 }
- .App {
-    max-width: 600px;
-    margin: 20px auto;
-    padding: 20px;
-   
-    border-radius: 10px;
-  
-    text-align: center;
+
+.App {
+  max-width: 1600px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+
+  /* Animated gradient background */
+  background: linear-gradient(45deg, #411c1c, #c77862, #f87ad4);
+  background-size: 300% 300%;
+  animation: gradientAnimation 8s ease infinite;
+}
+
+/* Gradient animation keyframes */
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
   }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
